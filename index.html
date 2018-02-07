@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TEDxSRMNCR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/t1.png">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300|Nanum+Myeongjo|Nanum+Gothic+Coding|Encode+Sans+Expanded:300|Amatic+SC|Merriweather|Raleway:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+            // Set the date we're counting down to
+                    var countDownDate = new Date("Mar 6, 2018 10:00:00").getTime();
+            
+            // Update the count down every 1 second
+                    var x = setInterval(function() {
+            
+                // Get todays date and time
+                    var now = new Date().getTime();
+                
+                // Find the distance between now an the count down date
+                    var distance = countDownDate - now;
+                
+                // Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                // Output the result in an element with id="demo"
+                    document.getElementById("demo").innerHTML = days + "-Days " + hours + "-hours "
+                    + minutes + "-min " + seconds + "-sec ";
+                
+                // If the count down is over, write some text 
+                    if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+                </script>
+</head>
+<body>
+    
+<div id="topbar">
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color:black">
+                <a class="navbar-brand" href="#"><img class="logo" src="./images/LOGO.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                   
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                          </li>   <li class="nav-item">
+                                <a class="nav-link" href="#speakers">Speakers</a>
+                              </li>   <li class="nav-item">
+                                    <a class="nav-link" href="#team">Team</a>
+                                  </li>
+                   
+                    
+                  </ul>
+             
+                </div>
+              </nav>
+</div>
+
+
+<div id="home" class="container-fluid" class="active"> 
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+           <img src="images/LRM_EXPORT_20180107_151749.jpg">
+     <div id="home-main">
+           <h1> TEDXSRMNCR <br> THE ROAD NOT TAKEN</h1>
+           <div class="venue">
+                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+           <p> VENUE : SRM CAMPUS<br> DATE : 10 March,2018  </p>
+           <button id="b1" ><a href="https://goo.gl/forms/jzQSHxZJdFG7kylr2">Register</a></button>
+         </div>
+     </div></div>
+           </div>
+           </div>
+         </div>
+
+
+    <div id="about" class="container-fluid">
+         <div class="row">
+                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+       <h1>WHAT IS TEDX?</h1>
+       <p>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDxMAIT, where x = independently organized TED event. At our TEDxMAIT event, TED Talks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</p>
+      </div>
+      </div>
+    </div>
+    <div id="theme" class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <h1>THEME</h1>
+        <p>"An idea that is developed and put into action is more important than an idea that exists only as an idea." – Buddha
+
+ "From Ideas to Action", the theme of TEDxMAIT, focuses on the journey of an idea- the journey of an idea as it undergoes the transformation from a thought to an action.
+
+ Every simple thing around us was once a humble idea. A thought that went on to become something huge. "From Ideas to Action" focuses on the process that transforms a minuscule, passing thought into a tangible service. Stories that inspired the idea, hard work that transformed and the execution that put the idea in front of the masses.
+
+ With a spirit of inspiring, we plan to share the stories of people who were brave enough to believe and implement their ideas. Join us at TEDxMAIT to experience the grit and determination that turns a thought into action. And reignite the belief in your dream again!</p>
+    </div>
+    </div>
+    </div>
+
+<div id="team">
+   <div class="row">
+      <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+          <div class="founder">
+         <img src="./images/speakers/Ashish Kumar.jpg" alt="">
+         </div> 
+      </div>
+      <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+       <div class="founder">           
+     <img src="./images/speakers/Anchit Srivastava.jpeg" alt=""> 
+          </div>        
+ </div>  
+   </div> 
+   <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">        <img src="./images/speakers/Anuj Sudhir.jpg" alt=""></div>
+    </div> 
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">            <img src="./images/speakers/Ridham Gupta.jpg" alt="">
+</div>     
+     </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">                <img src="./images/speakers/Anav Malhotra.jpg" alt="">
+</div>
+        </div>  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+         <div class="member">                    <img src="./images/speakers/Kaustav Basu.jpg" alt="">
+         </div>
+        </div>  
+   </div>
+
+
+
+
+   <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">                <img src="./images/speakers/Ananya Sharma.jpeg" alt="">
+</div>
+        </div> 
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">              <img src="./images/speakers/Anushree Arun.png" alt="">
+</div>            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">                  <img src="./images/speakers/Ayush Dubey.jpg" alt="">
+</div>                </div>  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">  <img src="./images/speakers/Aseem Mehrotra.jpg" alt="">
+</div>
+</div>  
+     </div>
+
+
+   <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">                <img src="./images/speakers/Murad Mohammad.jpg" alt="">
+</div>        </div> 
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">              <img src="./images/speakers/Parth Kumar.jpg" alt="">
+</div>            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+             <div class="member">                  <img src="./images/speakers/Harshit Singh.jpg" alt="">
+             </div>
+            </div>  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">                      <img src="./images/speakers/Grusha Mehrotra.jpg" alt="">
+</div>                    </div>  
+     </div>
+
+
+
+
+     <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+             <div class="member">              <img src="./images/speakers/Sumitava Aich.jpg" alt="">
+             </div>
+            </div> 
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="member">                  <img src="./images/speakers/Priyanka Negi.jpg" alt="">
+            </div>
+            </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="member">                      <img src="./images/speakers/Arpit Bhatnagar.jpeg" alt="">
+                    </div>
+                </div>  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                     <div class="member">                          <img src="./images/speakers/Akash Keswani.jpg" alt="">
+                     </div>
+                </div>  
+         </div>
+
+
+
+
+
+     
+
+
+
+
+
+             <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">                      <img src="./images/speakers/Aditya Khari.jpg" alt="">
+</div>                    </div> 
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">                          <img src="./images/speakers/Ayush Khattar.jpg" alt="">
+</div>                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                       <div class="member">                              <img src="./images/speakers/Utsav Aggarwal.jpg" alt="">
+                       </div>     </div>  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+<div class="member">                                  <img src="./images/speakers/Parth Kumar.png" alt="">
+</div>                                </div>  
+                 </div>
+
+
+</div>
+
+
+
+</body>
+</html>
